@@ -11,11 +11,16 @@ Ini adalah awalan saya belajar membuat widget yang ada di flutter(bahasa dart) y
 
 ![screenshot basic_widget](images/02.png)
 
-Sekarang saya mengganti nama saya menjadi logo polinema seperti pada gambar dibawah ini
+Sekarang saya mengganti nama saya menjadi logo polinema seperti pada gambar dibawah ini, menggunakan image_widget pada folder basic_widget yang saya import ke main dart.
 
 ![screenshot logo_polinema](images/03.png)
 
 
+# Praktikum 5
+
+Sekarang saya membuat Cupertino Button dan Loading Bar yang mana itu digunakan untuk membuat tombol yang jika di click otomotis bertambah +1 dan seterusnya
+
+![screenshot cupartino_button](images/04.png)
 
 
 <!-- ## Getting Started
