@@ -1,3 +1,6 @@
+Nama: Muhammad Al-Fatih Ulima Robby
+NIM:2341720119
+
 # hello_world
 
 A new Flutter project.
@@ -21,6 +24,16 @@ Sekarang saya mengganti nama saya menjadi logo polinema seperti pada gambar diba
 Sekarang saya membuat Cupertino Button dan Loading Bar yang mana itu digunakan untuk membuat tombol yang jika di click otomotis bertambah +1 dan seterusnya
 
 ![screenshot cupartino_button](images/04.png)
+
+Untuk selanjutnya saya melakukan percobaan membuat TextField yang mana dapat menginputkan Nama, kelas, dan lain-lain seperti gambar di bawah ini.
+
+![screenshot textField](images/05.png)
+
+# Date and Time Pickers
+
+Digunakan untuk menentukan tanggal, tanggal tersebut dapat kita set sesuai hari ini dengan contoh screenshot yang ada dibawah ini.
+
+![screenshot DTP](images/06.png)
 
 
 <!-- ## Getting Started
