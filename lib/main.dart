@@ -17,7 +17,16 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.red,
       ),
-      home: const MyHomePage(title: 'My Increment App'),
+      home: Scaffold(
+        appBar: AppBar(title: const Text("Contoh TextField")),
+        body: const TextField(
+          obscureText: false,
+          decoration: InputDecoration(
+            border: OutlineInputBorder(),
+            labelText: 'Masukkan Nama',
+          ),
+        )
+      )
     );
   }
 }
