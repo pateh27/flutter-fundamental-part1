@@ -8,8 +8,12 @@ A new Flutter project.
 
 Basic Widget Flutter project
 Ini adalah awalan saya belajar membuat widget yang ada di flutter(bahasa dart) yang mana ini hanya mengetikkan nama saya saja.
+
 ![screenshot basic_widget](images/02.png)
 
+Sekarang saya mengganti nama saya menjadi logo polinema seperti pada gambar dibawah ini
+
+![screenshot logo_polinema](images/03.png)
 
 
 
