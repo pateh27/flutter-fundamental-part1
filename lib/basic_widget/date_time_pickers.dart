@@ -1,14 +1,10 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-// import 'package:flutter_application_1/basic_widget/image_widget.dart';
-// import 'package:flutter_application_1/basic_widget/text_widget.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp ({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -25,28 +21,31 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  // ignore: library_private_types_in_public_api
+  _MyHomePageState createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  // Variable/State untuk mengambil tanggal
   DateTime selectedDate = DateTime.now();
 
+  //  Initial SelectDate FLutter
   Future<void> _selectDate(BuildContext context) async {
-    //initial DateRime Final Picked
+    // Initial DateTime FIinal Picked
     final DateTime? picked = await showDatePicker(
-      context: context,
-      initialDate: selectedDate,
-      firstDate: DateTime(2015, 8),
-      lastDate: DateTime(2101));
-      if (picked != null && picked != selectedDate) {
-        setState(() {
-          selectedDate = picked;
-        });
-      }
+        context: context,
+        initialDate: selectedDate,
+        firstDate: DateTime(2015, 8),
+        lastDate: DateTime(2101));
+    if (picked != null && picked != selectedDate) {
+      setState(() {
+        selectedDate = picked;
+      });
     }
+  }
 
   @override
- Widget build(BuildContext context) {
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
