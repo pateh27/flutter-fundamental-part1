@@ -4,6 +4,16 @@ A new Flutter project.
 
 ![screenshot hello_word](images/01.png)
 
+# praktikum 4
+
+Basic Widget Flutter project
+Ini adalah awalan saya belajar membuat widget yang ada di flutter(bahasa dart) yang mana ini hanya mengetikkan nama saya saja.
+![screenshot basic_widget](images/02.png)
+
+
+
+
+
 <!-- ## Getting Started
 
 This project is a starting point for a Flutter application.
